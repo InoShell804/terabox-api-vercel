@@ -8,6 +8,10 @@
   ],
   "routes": [
     {
+      "src": "/",
+      "dest": "api/index.py"
+    },
+    {
       "src": "/box/terabox/(.*)",
       "dest": "api/index.py"
     }
